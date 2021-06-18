@@ -1,1 +1,24 @@
-*{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{font-size:16px;font-family:Rasa,serif;color:#303133}.container{width:90%;max-width:1000px;margin:0 auto}img{vertical-align:top;max-width:100%}a{text-decoration:none;color:#303133;-webkit-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}a:hover{color:rgba(48,49,51,.5)}.titulo-seccion h2{font-size:3.125rem;font-weight:400;line-height:3.6875rem;margin-bottom:1.125rem;font-style:italic;letter-spacing:-.02rem}.titulo-seccion p{font-size:1.25rem;color:#777}header .menu-bar-pc{background:rgba(180,151,90,.9);width:100%;position:fixed;z-index:99;top:0;padding:0 2.25rem;display:flex;flex-direction:row;justify-content:space-between;align-items:center;min-height:5.875rem;border-bottom:1px solid #eaeaea}header .menu-bar-pc .logo{max-width:10%}header .menu-bar-pc .menu-principal a{padding:0 .5625rem}header .menu-bar-pc .top-redes a{padding:.05625rem}.main{margin-top:5.875rem}.main .portada{display:flex;flex-wrap:wrap;justify-content:space-between}.main .portada .col{width:50%;background:#141618;color:#fff;display:flex;flex-wrap:wrap}.main .portada .col .foto{background-size:cover;background-position:center;width:50%}.main .portada .col .foto.izq{background-image:url(../img/block1.png)}.main .portada .col .foto.der{background-image:url(../img/block4.png)}.main .portada .col .foto .overlay{opacity:0;width:100%;height:100%;background:rgba(20,22,24,.4);position:relative;cursor:pointer;-webkit-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}.main .portada .col .foto .overlay:hover{opacity:1}.main .portada .col .foto .overlay i{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.main .portada .col .texto{width:50%;padding:3.375rem}.main .portada .col .texto h2{font-size:1.8125rem;font-weight:400;line-height:2.6875rem;margin-bottom:1.125rem}.main .portada .col .texto p{font-size:.9375rem;line-height:1.75}.main .portada .col .foto-full{width:100%;min-height:15.25rem;background-size:cover;background-position:center}.main .portada .col .foto-full.izq{background-image:url(../img/block2.png);opacity:.8}.main .portada .col .foto-full.der{background-image:url(../img/block3.png)}.main .portada .col .foto-full .overlay{opacity:0;width:100%;height:100%;background:rgba(20,22,24,.4);position:relative;cursor:pointer;-webkit-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}.main .portada .col .foto-full .overlay:hover{opacity:1}.main .portada .col .foto-full .overlay i{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.main .contenido{padding:5.625rem 0}.main .contenido .container{display:flex;flex-direction:row;flex-wrap:wrap}.main .contenido .container .col.izq{width:30%;border-right:1px solid #eaeaea;display:flex;align-items:center;padding-right:5%}.main .contenido .container .col.der{width:70%;padding-left:5%}.main .contenido .container .col.der .texto p{font-size:1.125rem;line-height:1.75;color:#777}.main .noticias{background:#141618;padding:5.625rem 0}.main .noticias .container{display:flex;flex-direction:row;flex-wrap:wrap;align-items:center}.main .noticias .container .col{width:50%}.main .noticias .container .col.izq{box-shadow:0 9px 1px -1px rgba(0,0,0,.5);overflow:hidden}.main .noticias .container .col .titulo-seccion{padding:3.125rem;padding-right:0}.main .noticias .container .col .titulo-seccion h2{color:#fff}.main .noticias .container .col .titulo-seccion p{color:rgba(255,255,255,.7);padding-bottom:1.125rem;font-size:1.125rem;line-height:1.75}.main .noticias .container .col .titulo-seccion p:last-child{padding-bottom:0}.main .noticias .container .slider{width:300%;display:flex}.main .noticias .container .slider .slide{width:100%;min-height:400px;background-size:cover;background-position:center}.main .noticias .container .slider .slide.foto1,.main .noticias .container .slider .slide.foto2,.main .noticias .container .slider .slide.foto3{background-image:url(../img/1.jpg)}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    font-size: 16px;
+    font-family: Rasa, serif;
+    color: #303133
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%
+}
